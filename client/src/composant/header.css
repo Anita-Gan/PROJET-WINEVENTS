@@ -1,0 +1,39 @@
+:root {
+    --colorGreen: rgba(3, 84, 16, 1);
+    --colorLigth: #FFFFFF;
+    --colorDark: #0000;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30%;
+    margin-top: 5px;
+    font-size: 20px;
+    max-width: 1450px;
+}
+
+.btn-header {
+    background-color: var(--colorGreen);
+    color: var(--colorLigth);
+    padding: 12px 35px;
+    border-radius: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 2.5px;
+}
+
+
+img {
+    display: flex;
+    width:1O0px;
+    height:100%;
+    margin-bottom: 8px;
+}
+.underline{
+    text-decoration: none;
+}
+
+
