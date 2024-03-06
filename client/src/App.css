@@ -10,10 +10,12 @@
   --colorLigth: #FFFFFF;
   --colorDark: #0000;
   --colorPal: rgba(0, 0, 0, 0.38);
+  --colorVerte:rgba(3, 84, 16, 1);
+  --colorRed:rgba(202, 17, 17, 1);
 }
 
 .container {
-  background-image: url("/home/user-24-c1/PROJET WINEVENTS/Mes image et logo/mr.jpg");
+  background-image: url("/home/user-24-c1/PROJET WINEVENTS/client/images/mr.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -40,6 +42,7 @@
 }
 
 .container .container-tittle p {
+  margin-top: 4%; 
   color: var(--colorLigth);
   font-size: 32px;
   display: flex;
@@ -50,24 +53,48 @@
 .btn-container {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 20%;
   color: var(--colorLigth);
   padding: 12px 35px;
   border-radius: 70px;
   font-size: 20px;
   font-weight: bold;
-  margin-top: 2px;
-  margin-bottom: 2.5px;
-
-  }
-  .btn-container .btn-1{
-  background-color: var(--colorLigth);
-    color:black;
-    padding: 12px 35px;
-    border-radius: 70px;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 2px;
-    margin-bottom: 2.5px;
   
-    }
+
+}
+
+.btn-container .btn-1 {
+  background-color: var(--colorLigth);
+  color: black;
+  padding: 12px 35px;
+  border-radius: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 63%;
+  
+
+}
+
+.btn-container .btn-2 {
+  background-color: var(--colorVerte);
+  color: var(--colorLigth);
+  padding: 12px 35px;
+  border-radius: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 78%;
+ 
+
+}
+
+.btn-container .btn-3 {
+  background-color: var(--colorRed);
+  color: var(--colorLigth);
+  padding: 12px 55px;
+  border-radius: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 75%;
+  
+
+}

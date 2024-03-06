@@ -2,6 +2,8 @@
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import Header from './composant/header'
 import Container from './composant/container'
+import Container2 from './composant/container2'
+import './composant/container2'
 import './composant/header.css'
 import './App.css'
 
@@ -23,6 +25,9 @@ function App() {
 </div>
 
 <Container/>
+<div>
+<Container2/>
+</div>
 
 </BrowserRouter>
 
