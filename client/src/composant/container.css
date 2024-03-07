@@ -1,12 +1,43 @@
-.container2 {
-
-    max-width: 1450px;
-    max-height: 1450px;
-}
-
-.container2-img {
-    background-image: url("/images/Ellipse 1.png");
+ .container2{
+background-image: url("/images/Untitled.png");
     display: flex;
-    width: 80%;
-    height: 70%;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 32px;
+    max-width: 2000px;
+    max-height: 1950px;
+    margin-top: 5%;
+   
+    
 }
+.container2-p{
+    margin-left: 8%;
+}
+.container2-p h1{
+text-align: center;
+font-size: 40px;
+}
+
+.container2-img{
+width: 750px;
+height: 550px;
+border-radius: 70%;
+/* display: flex;
+flex-direction: row;
+float: inline-end;
+margin-left: 5%; */
+margin-right: 5%;
+
+}
+.container2-btn{
+   margin-top: 5%;
+   padding: 15px 45px;
+  border-radius: 10px  ;
+  border-color: rgba(202, 17, 17, 1);
+  background-color: white;
+  color: rgba(202, 17, 17, 1);
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30%;
+}
+
