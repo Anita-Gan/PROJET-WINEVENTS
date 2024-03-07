@@ -1,0 +1,10 @@
+.container3-img {
+    background-image: url("/images/Rectangle 24.png");
+    background-size: cover;
+    background-position: center;
+    width:1833px;
+    height: 60px;
+    margin-top: 3%;
+    display: flex;
+
+}
