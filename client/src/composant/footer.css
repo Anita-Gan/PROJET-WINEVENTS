@@ -1,0 +1,45 @@
+.footer{
+background-image: url("/images/Rectangle 24.png");
+    background-size: cover;
+    background-position: center;
+    width:1833px;
+    height: 380px;
+    margin-top: 10%;
+    display: flex;
+    gap: 10%;
+
+   }
+   .logo{
+    width: 20%;
+    height: 30%;
+    margin-top: 5%;
+    margin-left: 3%;
+    border-radius: 125%;
+   } 
+  /* .footer-img2 img{
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+    width: 320px;
+    height: 220px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+  }  */
+.footer-text{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    list-style: none;
+    margin-top: 5%;
+   
+}
+.footer-svg img{
+    width: 80px;
+    height: 40px;
+    display: flex ;
+  
+}
+.footer-text2{
+    margin-top: 5%;
+}
