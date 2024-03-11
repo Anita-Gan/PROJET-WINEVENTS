@@ -3,32 +3,24 @@ background-image: url("/images/Rectangle 24.png");
     background-size: cover;
     background-position: center;
     width:1833px;
-    height: 380px;
+    height: 480px;
     margin-top: 10%;
     display: flex;
-    gap: 10%;
+    gap: 15%;
 
    }
    .logo{
-    width: 20%;
-    height: 30%;
-    margin-top: 5%;
+    width: 350px;
+    height: 300px;
+    margin-top: 3%;
+    margin-bottom: 2%;
     margin-left: 3%;
     border-radius: 125%;
    } 
-  /* .footer-img2 img{
-    display: flex;
-    flex-direction: row;
-    gap: 30%;
-    width: 320px;
-    height: 220px;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 3%;
-  }  */
+
 .footer-text{
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;  
     /* justify-content: space-between; */
     list-style: none;
     margin-top: 5%;
@@ -40,6 +32,35 @@ background-image: url("/images/Rectangle 24.png");
     display: flex ;
   
 }
+.footer-svg li{
+   font-size: 20px;
+   font-weight: bold;
+  
+}
 .footer-text2{
     margin-top: 5%;
+}
+.footer-text2 p{
+    margin-top: 15%;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+   
+}
+.footer-svg .Footer-svg-conctact{
+color: rgba(3, 84, 16, 1);
+font-size: 32px;
+font-weight: bold;
+margin-left: 5%;
+}
+.footer-text2 .footer-page{
+    color: rgba(3, 84, 16, 1);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.footer-phone, .footer-mail{
+    display: flex;
+    margin-top: 10%;
+  
 }

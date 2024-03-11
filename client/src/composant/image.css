@@ -1,0 +1,21 @@
+.image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 1%;
+    margin-top: 2%;
+    
+}
+.image img{
+    width: 450px;
+    height: 350px;
+}
+.image li{
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    
+}

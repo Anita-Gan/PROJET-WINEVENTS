@@ -4,7 +4,7 @@ export default function Header() {
         <>
             <img src="/images/Rectangle 19(1).svg" alt="logo" />
             <div className="header">
-
+                <Link className="underline" to="/accueil">Accueil</Link>
                 <Link className="underline" to="/apropos">Apropos</Link>
                 <Link className="underline" to="/services">Services</Link>
                 <Link className="underline" to="/noslieux">Noslieux</Link>
