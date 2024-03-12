@@ -1,7 +1,12 @@
-export default function Services() {
+ export default function Services() {
     return(
-        <>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum blanditiis iste qui, consequatur repellendus explicabo nihil, ducimus molestiae earum facere accusantium nulla odit quae quo exercitationem amet consectetur voluptate mollitia?</p>
-        </>
+        <div className="service">
+            {/* <img src="/images/cadre.jpg" alt="" /> */}
+            <div className="service-text">
+                <h2>Services</h2>
+            </div>
+        </div>
     )
-}
+ }
+ 
+            

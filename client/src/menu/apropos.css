@@ -1,9 +1,109 @@
- .apropos{
-  background-color: black;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height:2455px;
-  width: 1470px;
+ .apropos {
+   background-image: url("/images/PULL.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 750px;
+   width: 1830px;
+ }
+
+ .apropos-text {
+   margin: auto;
+   top: 23%;
+   position: relative;
+   background-color: rgba(255, 255, 255, 0.41);
+   width: 30%;
+   height: 45%;
+   border-radius: 125%;
+
+ }
+
+ .apropos-text h2 {
+   font-size: 54px;
+   justify-content: center;
+   display: flex;
+   padding-top: 20%;
+ }
+
+ .apropos-text2 {
+   margin-top: 25%;
+   text-align: center;
+   font-size: 24px;
+
+ }
+
+ .apropos-rect {
+   margin: auto;
+   top: 6%;
+   position: relative;
+   background-color: rgba(245, 12, 12, 0.4);
+   width: 20%;
+   height: 45%;
+   border-radius: 25%;
+
+
+
+ }
+
+ .apropos-rect2 {
+   margin: auto;
+   top: 6%;
+   position: relative;
+   background-color: rgba(238, 107, 12, 0.31);
+   width: 20%;
+   height: 45%;
+   border-radius: 25%;
+
+ }
+
+ .apropos-rect3 {
+   margin: auto;
+   top: 6%;
+   position: relative;
+   background-color: rgba(217, 99, 191, 0.27);
+   width: 20%;
+   height: 45%;
+   border-radius: 25%;
+
+ }
+ .apropos-rect3 h2{
   color: blue;
-} 
+  text-align: center;
+    padding-top: 40%;
+  font-size: 32px;
+ }
+ .apropos-rect2 h2{
+  color: blue;
+  text-align: center;
+  padding-top: 40%;
+  font-size: 32px;
+ }
+ .apropos-rect h2{
+  color: blue;
+  text-align: center;
+  padding-top: 40%;
+  font-size: 32px;
+ }
+ .app-text{
+  text-align: center;
+  margin-top: 5%;
+  font-size: 24px;
+ 
+ }
+ .app-text .app-text1{
+  font-weight: bold;
+  font-size: 32px;
+
+}
+.app-btn {
+  background-color:rgba(238, 107, 12, 0.64) ;
+  border-color:rgba(238, 107, 12, 0.64)  ;
+  padding: 12px 15px;
+  border-radius: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 3%;
+
+  
+
+}

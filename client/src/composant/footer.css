@@ -42,9 +42,10 @@ background-image: url("/images/Rectangle 24.png");
 }
 .footer-text2 p{
     margin-top: 15%;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
-    text-decoration: underline;
+   color: black;
+   margin-left: 13%;
    
 }
 .footer-svg .Footer-svg-conctact{

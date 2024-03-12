@@ -11,15 +11,16 @@ import Services from './menu/sevices'
 import Noslieux from './menu/noslieux'
 // import Image from './composant/image'
 
-// import Contact from './composant/contact'
+import Contact from './menu/contact'
 import 'client/src/composant/image.css'
 import 'client/src/menu/apropos.css'
-import './composant/footer.css'
+import 'client/src/composant/footer.css'
 import './composant/container4.css'
 import './composant/container.css'
 import './composant/container3.css'
 import './composant/header.css'
 import './App.css'
+import './menu/service.css'
 import Accueil from './menu/accueil'
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
           <Route path="/apropos" element={<Apropos />} />
           <Route path='/services' element={<Services />} />
           <Route path='/noslieux' element={<Noslieux />} />
-          {/* <Route path='/contact' element={<Contact/>} /> */}
+          <Route path='/contact' element={<Contact/>} />
 
         </Routes>
       </BrowserRouter>

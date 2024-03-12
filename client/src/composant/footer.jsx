@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
     return (
         <div className="footer">
@@ -20,8 +22,9 @@ export default function Footer() {
             </div>
             <div className="footer-text2">
                 <h2 className="footer-page">. Pages utiles</h2>
-                <p>Nos lieux</p>
-                <p>Services</p>
+                <Link to="/noslieux"><p>Nos lieux</p></Link>
+                <Link  to="/services"><p>Services</p></Link>
+                
                 
             </div>
 

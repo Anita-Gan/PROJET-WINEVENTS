@@ -1,0 +1,25 @@
+.service {
+     background-image: url("/images/cadre.jpg"); 
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 850px;
+    width: 1830px; 
+  }
+ 
+  .service-text {
+    margin: auto;
+    top: 23%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.17);
+    width: 55%;
+    height: 45%;
+   
+ 
+  } 
+  .service-text h2 {
+    font-size: 54px;
+    justify-content: center;
+    display: flex;
+    padding-top: 15%;
+  }
