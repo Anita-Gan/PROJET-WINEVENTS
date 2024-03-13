@@ -1,0 +1,8 @@
+.noslieux {
+    background-image: url("/images/cadre.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    width: 1830px;
+  }

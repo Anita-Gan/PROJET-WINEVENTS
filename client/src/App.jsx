@@ -20,6 +20,7 @@ import './composant/container.css'
 import './composant/container3.css'
 import './composant/header.css'
 import './App.css'
+import '/src/menu/contact.css'
 import './menu/service.css'
 import Accueil from './menu/accueil'
 
@@ -40,8 +41,9 @@ function App() {
           <Route path='/contact' element={<Contact/>} />
 
         </Routes>
+       
       </BrowserRouter>
-
+      
 
     </>
   )

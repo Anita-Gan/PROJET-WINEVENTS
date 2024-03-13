@@ -66,44 +66,60 @@
    border-radius: 25%;
 
  }
- .apropos-rect3 h2{
-  color: blue;
-  text-align: center;
-    padding-top: 40%;
-  font-size: 32px;
- }
- .apropos-rect2 h2{
-  color: blue;
-  text-align: center;
-  padding-top: 40%;
-  font-size: 32px;
- }
- .apropos-rect h2{
-  color: blue;
-  text-align: center;
-  padding-top: 40%;
-  font-size: 32px;
- }
- .app-text{
-  text-align: center;
-  margin-top: 5%;
-  font-size: 24px;
- 
- }
- .app-text .app-text1{
-  font-weight: bold;
-  font-size: 32px;
 
-}
-.app-btn {
-  background-color:rgba(238, 107, 12, 0.64) ;
-  border-color:rgba(238, 107, 12, 0.64)  ;
-  padding: 12px 15px;
-  border-radius: 70px;
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 3%;
+ .apropos-rect3 h2 {
+   color: blue;
+   text-align: center;
+   padding-top: 40%;
+   font-size: 32px;
+ }
 
-  
+ .apropos-rect2 h2 {
+   color: blue;
+   text-align: center;
+   padding-top: 40%;
+   font-size: 32px;
+ }
 
-}
+ .apropos-rect h2 {
+   color: blue;
+   text-align: center;
+   padding-top: 40%;
+   font-size: 32px;
+ }
+
+ .app-text {
+   text-align: center;
+   margin-top: 5%;
+   font-size: 24px;
+
+ }
+
+ .app-text .app-text1 {
+   font-weight: bold;
+   font-size: 32px;
+
+ }
+
+ .app-btn {
+   background-color: rgba(238, 107, 12, 0.64);
+   border-color: rgba(238, 107, 12, 0.64);
+   padding: 12px 15px;
+   border-radius: 70px;
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 3%;
+
+ }
+
+ .color {
+   color: rgba(245, 12, 12, 1);
+ }
+
+ .color2 {
+   color: rgba(3, 84, 16, 1);
+ }
+
+ .color3 {
+   color: rgba(37, 3, 249, 0.97);
+ }

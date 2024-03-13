@@ -4,7 +4,7 @@ export default function Apropos() {
     return (
         <div className="apropos">
             <div className="apropos-text">
-                <h2>WinEvent’S</h2>
+                <h2><span className="color">Win</span><span className="color2">Event</span><span className="color3">’S</span></h2>
             </div>
             <div className="apropos-text2">
                 <h2> WinEvent’s :</h2>

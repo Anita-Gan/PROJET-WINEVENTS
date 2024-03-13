@@ -1,8 +1,16 @@
 export default function Noslieux() {
-    return(
-        <>
-         <p className="noslx">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum blanditiis iste qui, consequatur repellendus explicabo nihil, ducimus molestiae earum facere accusantium nulla odit quae quo exercitationem amet consectetur voluptate mollitia?</p>
-         <h2>bonjour</h2>
-        </>
+    return (
+        <div className="noslieux">
+            <div className="noslieux-text">
+                <h2>Nos lieux</h2>
+            </div>
+            <div className="service-text2">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Quia dolorem dolores iure,<br></br>  quos ipsam numquam veritatis
+                    alias quidem quisquam nemo animi facilis!<br></br> Animi repellendus
+                    rem dolores nam et, optio in.</p>
+            </div>
+</div>
     )
 }
+

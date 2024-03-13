@@ -11,6 +11,7 @@ export default function Container() {
                 <label for="contact"><input className="btn-2" type="submit" value="Type de lieux" /></label>
                 <label for="contact"><input className="btn-3" type="submit" value="Chercher" /></label>
             </div>
+          
         </div>
 
     )
