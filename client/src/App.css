@@ -49,8 +49,19 @@
   font-size: 32px;
   display: flex;
   justify-content: center;
-
+  animation: slideText 3s linear infinite; 
 }
+  
+@keyframes slideText {
+  0% {
+      transform: translateX(0); 
+  }
+  100% {
+      transform: translateX(200px);
+  }
+}
+
+
 
 .btn-container {
   display: flex;

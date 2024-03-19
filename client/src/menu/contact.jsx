@@ -11,42 +11,42 @@ export default function Noslieux() {
                     vos recherche et vous proposer des services de <br></br>
                     qualités pour votre évènement.<br></br>
                     N’hésitez pas à nous contacter !</p>
-                <span>Nous vous répondons par téléphone :</span>
-                <p>Tél: +243970821352</p>
-                <p>Tél: +243993260583</p>
+                <p className="text3">Nous vous répondons par téléphone :</p>
+                <p className="text4">Tél: +243970821352</p>
+                <p className="text4">Tél: +243993260583</p>
             </div>
             <div className="contact-forme">
                 <form action="#">
                     <p>Vous pouvez aussi remplir ce formulaire :</p>
-                    <span>Les champs marqués du signe <span>* </span>sont obligatoires.</span>
+                    <span className="text-forme">Les champs marqués du signe <span className="color-red">* </span>sont obligatoires.</span>
                     <div>
 
                         <li>
-                            <label htmlFor=""></label>
-                            <input type="text" value="Nom"/>
+                            <label htmlFor="">Nom</label>
+                            <input className="contact-forme-input" type="text" />
                         </li>
                         <li>
-                            <label htmlFor=""></label>
-                            <input type="text" value="Prénom"/>
+                            <label htmlFor="">Prénom</label>
+                            <input  className="contact-forme-input" type="text" />
                         </li>
                         <li>
-                            <label htmlFor=""></label>
-                            <input type="email" value="Email"/>
+                            <label htmlFor="">Email</label>
+                            <input className="contact-forme-input" type="email" />
                         </li>
                         <li>
-                            <label htmlFor=""></label>
-                            <input type="tel" value="Télephone"/>
+                            <label htmlFor="">Télephone</label>
+                            <input className="contact-forme-input" type="tel"/>
                         </li>
                         <li>
-                            <label htmlFor=""></label>
-                            <input type="text" value="Type d’événement*"/>
+                            <label htmlFor="">Type d’événement*</label>
+                            <input className="contact-forme-input" type="text"/>
                         </li>
                         <li>
-                            <label htmlFor=""></label>
-                            <input type="text" value="Type de lieux*"/>
+                            <label htmlFor="">Type de lieux*</label>
+                            <input className="contact-forme-input" type="text"/>
                         </li>
-                        <li><label htmlFor=""></label>
-                            <input type="text"value="Réservation*" />
+                        <li><label htmlFor="">Réservation*</label>
+                            <input className="contact-forme-input" type="text"/>
                         </li>
                         <li>
                             <input type="checkbox" id="scales" name="scales" checked />
@@ -54,7 +54,7 @@ export default function Noslieux() {
                         </li>
                         <li>
                             <label htmlFor=""></label>
-                            <input type="submit" />
+                            <input contact-forme-input type="submit" />
                         </li>
                     </div>
                 </form>

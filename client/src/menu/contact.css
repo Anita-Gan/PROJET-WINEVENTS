@@ -24,22 +24,68 @@
 }
 
 .contact-text2 {
-    margin-top: 25%;
+    margin-top: 28%;
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
     float: inline-start;
-    margin-left: 5%;
+    margin-left: 8%;
+  
+}
+.contact-text2 .text3{
+margin-top: 4%;
 }
 
 .contact-forme {
     margin: auto;
-    margin-top: 25%;
+    margin-top: 28%;
     position: relative;
     background-color: rgba(217, 217, 217, 1);
-    width: 770px;
-    height: 846px;
+    width: 670px;
+    height: 1046px;
     float: inline-end;
     margin-right: 3%;
     margin-bottom: 3%;
     list-style: none;
 }
+
+
+.contact-forme .contact-forme-input{
+    display: flex; 
+    gap: 50%;
+    color: dark;
+    padding: 12px 140px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+    border-color: rgba(217, 217, 217, 1);
+    margin-left: 10%;
+   
+}
+.contact-forme p{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 200;
+}
+.contact-forme .color-red{
+    color:red;
+    font-weight: bold;
+   
+}
+.contact-forme .text-forme{
+    margin-left: 20%; 
+    font-size: 20px;
+}
+
+.contact-text2 .text4{
+color: rgba(3, 84, 16, 1);
+font-weight: bold;
+margin-top: 5%;
+}
+
+
+
+
+
+

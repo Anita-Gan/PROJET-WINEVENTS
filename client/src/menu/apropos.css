@@ -32,45 +32,44 @@
 
  }
 
- .apropos-rect {
-   margin: auto;
-   top: 6%;
-   position: relative;
-   background-color: rgba(245, 12, 12, 0.4);
-   width: 20%;
-   height: 45%;
-   border-radius: 25%;
-
-
-
- }
-
  .apropos-rect2 {
    margin: auto;
-   top: 6%;
+   top: 8%;
    position: relative;
    background-color: rgba(238, 107, 12, 0.31);
-   width: 20%;
-   height: 45%;
-   border-radius: 25%;
+   width: 80%;
+   height: 40%;
+   /* border-radius: 10%; */
 
  }
+ .box{
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  margin-top: 4%;
+  margin-left: 2%;
+  
 
+ }
+.box img{
+  width: 320px;
+  height: 480px;
+}
  .apropos-rect3 {
    margin: auto;
-   top: 6%;
+   top: 10%;
    position: relative;
    background-color: rgba(217, 99, 191, 0.27);
-   width: 20%;
-   height: 45%;
-   border-radius: 25%;
-
+   width: 70%;
+   height: 35%;
+   /* border-radius: 25%;  */
+   
  }
 
  .apropos-rect3 h2 {
    color: blue;
    text-align: center;
-   padding-top: 40%;
+   /* padding-top: 30%; */
    font-size: 32px;
  }
 
@@ -84,8 +83,9 @@
  .apropos-rect h2 {
    color: blue;
    text-align: center;
-   padding-top: 40%;
    font-size: 32px;
+   padding-bottom: 40%;
+   display: flex;
  }
 
  .app-text {

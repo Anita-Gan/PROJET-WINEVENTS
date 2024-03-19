@@ -15,7 +15,7 @@ export default function Container2() {
                     jamais été aussi simple.
                     Aussi simple que ces 2 mots qui définissent le concept<br></br>
                     WinEvent’s.</p>
-                <Link to="decouvrez nos services">
+                <Link to="/services">
                     <label htmlFor="decouvrez nos services"><input className="container2-btn" type="submit" value="Découvrez nos services" /></label>
                 </Link>
 
