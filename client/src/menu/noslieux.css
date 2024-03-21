@@ -1,34 +1,78 @@
-.noslieux{
+.noslieux-text{
 background-color: rgb(248, 242, 251);
 background-repeat: no-repeat;
 background-position: center;
-position: absolute;
+display: flex;
+gap: 3%;
 border: 2px;
 width: 1600px;
 margin-left: 7%;
 
 }
-h2 {
-   text-align: center;
-   font-size: 32px;
-   margin-top: 4%;
- }
- /* .reserv1{
-display: flex;
-justify-content: center;
-flex-direction: column;
-margin-right: 30%;
- } */
 
- .noslieux-text {
-   text-align: center;
-   display: flex;
-   justify-content: center;
-   gap: 5%;
-   margin-top: 5%;
-   /* animation: slideText 3s linear infinite; */
- }
+.noslieux-text span{
+ margin-top: 5%;
+  font-size: 24px;
+}
+h3{
+  text-align: center;
+  margin-top: 2%;
+ margin-left: 10%;
+}
 
+.noslieux h2{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  color:  rgba(3, 84, 16, 1);
+  font-weight: bold;
+  animation: shine 1s infinite; /* Utilisation de l'animation */
+}
+@keyframes shine {
+  0% {
+      color: rgba(3, 84, 16, 1); /* Couleur de départ */
+  }
+  50% {
+      color: rgb(32, 15, 223); /* Couleur à mi-chemin */
+  }
+  100% {
+      color: #bf0e0e; /* Couleur finale */
+  }
+}
+
+
+.class1{
+  display: flex;
+  flex-direction: column;
+  
+}
+.class1 input{
+margin-left: 46%;
+margin-top: 8%;
+  
+}
+.class1 h3{
+  font-size: 30px;
+  margin-top: 8%;
+  text-decoration: underline 5px solid;
+  text-decoration-color: rgba(3, 84, 16, 1); 
+  font-weight: normal;
+  }
+  .class1 span{
+    margin-top: 8%;
+    margin-left: 2%;
+   
+      
+    }
+    .class1 .para{
+      text-align: center;
+      
+      }
+      .class1 .para2{
+      margin-left: 18%;
+       text-align: center; 
+        }
  /* @keyframes slideText {
   0% {
       transform: translateX(0); 
@@ -39,12 +83,11 @@ margin-right: 30%;
 } */
  .noslieux-text img {
    width: 650px;
+   margin-left: 2%;
+   margin-top: 3%;
+   margin-right: 2%;
  }
- .noslieux-text h3 {
-  text-decoration: underline 8px solid;
-  
-}
-
+ 
 
 
 

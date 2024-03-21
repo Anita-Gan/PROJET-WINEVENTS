@@ -32,60 +32,64 @@
 
  }
 
- .apropos-rect2 {
-   margin: auto;
-   top: 8%;
-   position: relative;
-   background-color: rgba(238, 107, 12, 0.31);
-   width: 80%;
-   height: 40%;
-   /* border-radius: 10%; */
-
+ .box {
+   display: flex;
+   justify-content: center;
+   gap: 5%;
+   margin-top: 4%;
+   margin-left: 2%;
+   margin-right: 2%;
+   transition: transform 0.5s ease;
  }
- .box{
-  display: flex;
-  justify-content: center;
-  gap: 10%;
-  margin-top: 4%;
-  margin-left: 2%;
-  
 
- }
-.box img{
-  width: 320px;
-  height: 480px;
-}
- .apropos-rect3 {
+
+ .box-1 {
+   background-color: rgba(245, 12, 12, 0.4);
+   width: 350px;
+   height: 450px;
    margin: auto;
    top: 10%;
    position: relative;
+   border-radius: 4px 4px 4px 4px;
+ }
+
+ .box-2 {
+   background-color: rgba(238, 107, 12, 0.31);
+   width: 350px;
+   height: 450px;
+   margin: auto;
+   top: 10%;
+   position: relative;
+   transform: rotate(360deg);
+   border-radius: 4px 4px 4px 4px;
+ }
+
+ .box-3 {
    background-color: rgba(217, 99, 191, 0.27);
-   width: 70%;
-   height: 35%;
-   /* border-radius: 25%;  */
+   width: 350px;
+   height: 450px;
+   margin: auto;
+   top: 10%;
+   position: relative;
+   border-radius: 4px 4px 4px 4px;
    
  }
 
- .apropos-rect3 h2 {
-   color: blue;
-   text-align: center;
-   /* padding-top: 30%; */
-   font-size: 32px;
+ .box :hover {
+   background-color: #FFFFFF;
+   border: 3px solid;
+   transform: rotate(360deg);
+   transition: transform 0.5s ease;
  }
-
- .apropos-rect2 h2 {
-   color: blue;
-   text-align: center;
-   padding-top: 40%;
-   font-size: 32px;
- }
-
- .apropos-rect h2 {
-   color: blue;
-   text-align: center;
-   font-size: 32px;
-   padding-bottom: 40%;
-   display: flex;
+ 
+ .box-3 h3,
+ .box-2 h3,
+ .box-1 h3 {
+   font-size: 30px;
+   margin-top: 45%;
+   color: #555555;
+   font-weight: bold;
+   margin-right: 8%;
  }
 
  .app-text {

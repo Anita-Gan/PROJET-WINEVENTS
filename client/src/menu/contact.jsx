@@ -21,40 +21,41 @@ export default function Noslieux() {
                     <span className="text-forme">Les champs marqués du signe <span className="color-red">* </span>sont obligatoires.</span>
                     <div>
 
-                        <li>
+                        <li className="contact-forme-input" >
                             <label htmlFor="">Nom</label>
-                            <input className="contact-forme-input" type="text" />
+                            <input type="text" />
                         </li>
-                        <li>
+                        <li className="contact-forme-input">
                             <label htmlFor="">Prénom</label>
                             <input  className="contact-forme-input" type="text" />
                         </li>
-                        <li>
+                        <li className="contact-forme-input">
                             <label htmlFor="">Email</label>
                             <input className="contact-forme-input" type="email" />
                         </li>
-                        <li>
+                        <li className="contact-forme-input">
                             <label htmlFor="">Télephone</label>
                             <input className="contact-forme-input" type="tel"/>
                         </li>
-                        <li>
+                        <li className="contact-forme-input">
                             <label htmlFor="">Type d’événement*</label>
                             <input className="contact-forme-input" type="text"/>
                         </li>
-                        <li>
+                        <li className="contact-forme-input">
                             <label htmlFor="">Type de lieux*</label>
                             <input className="contact-forme-input" type="text"/>
                         </li>
-                        <li><label htmlFor="">Réservation*</label>
+                        <li className="contact-forme-input">
+                            <label htmlFor="">Réservation*</label>
                             <input className="contact-forme-input" type="text"/>
                         </li>
                         <li>
                             <input type="checkbox" id="scales" name="scales" checked />
                             <label for="scales">Je consens à ce que ce site  WinEvent’s stocke mes informations afin qu’il puisse répondre à ma requête.<span>*</span> </label>
                         </li>
-                        <li>
+                        <li className="contact-forme-input">
                             <label htmlFor=""></label>
-                            <input contact-forme-input type="submit" />
+                            <input  type="submit" />
                         </li>
                     </div>
                 </form>
