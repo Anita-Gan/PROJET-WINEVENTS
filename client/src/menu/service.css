@@ -71,3 +71,36 @@
 .service-salle:hover img{
   transform: scale(1.1);
 }
+/* TABLETTE */
+@media screen and (max-width: 1024px){
+  .service {
+    height: 40vh;
+    width: 100%;
+    cursor: pointer;
+  }
+  .service-text h2 {
+    font-size: 40px;
+  }
+  .service-text{
+    top: 29%;
+  }
+  .service-text2 {
+    margin-top: 32%;
+    font-size: 22px;
+  }
+  .service-salle img,
+  .service-traiteur img{
+    width: 180px;
+    height: 125px;
+   
+  }
+  .service-span {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 9%;
+    font-size: 20px;
+    font-weight: bold;
+   
+  }
+}

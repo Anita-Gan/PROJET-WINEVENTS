@@ -133,5 +133,28 @@
     height: 40vh;
     width: 100%;
   }
-  
+  .apropos-text2 {
+    font-size: 20px;
+  }
+  .apropos-text h2 {
+    font-size: 37px;
+    padding-top: 28%;
+  }
+  .apropos-text {
+    top: 28%;
+  }
+  .box-3,
+ .box-2 ,
+ .box-1 {
+    width: 250px;
+    height: 350px;
+    
+  }
+  .box-3 h3,
+ .box-2 h3,
+ .box-1 h3{
+    font-size: 25px;
+    
+  }
+ 
 }

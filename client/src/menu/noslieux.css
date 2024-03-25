@@ -1,94 +1,119 @@
-.noslieux{
+.noslieux {
   background-image: url("images/save the date(1).png");
   height: 2732px;
   width: 1830px;
 }
-.noslieux-text{
-background-color: rgb(248, 242, 251);
-background-repeat: no-repeat;
-background-position: center;
-display: flex;
-gap: 3%;
-border: 2px;
-width: 1600px;
-margin-left: 7%;
+
+.noslieux-text {
+  background-color: rgb(248, 242, 251);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  gap: 3%;
+  border: 2px;
+  width: 1600px;
+  margin-left: 7%;
 
 }
 
-.noslieux-text span{
- margin-top: 5%;
+.noslieux-text span {
+  margin-top: 5%;
   font-size: 24px;
 }
-h3{
+
+h3 {
   text-align: center;
   margin-top: 2%;
- margin-left: 10%;
+  margin-left: 10%;
 }
 
-.noslieux h2{
+.noslieux h2 {
   text-align: center;
   font-size: 40px;
-  /* margin-top: 5%; */
+  margin-top: 0%;
   margin-bottom: 3%;
-  color:  rgb(2, 45, 9);
+  color: rgb(2, 45, 9);
   font-weight: bold;
-  animation: shine 1s infinite; 
-  
+  animation: shine 1s infinite;
+
 }
+
 @keyframes shine {
   0% {
-      color: rgb(17, 192, 46); 
+    color: rgb(17, 192, 46);
   }
+
   50% {
-      color: rgb(32, 15, 223); 
+    color: rgb(32, 15, 223);
   }
+
   100% {
-      color: #fdfafa; 
+    color: #fdfafa;
   }
 }
 
 
-.class1{
+.class1 {
   display: flex;
   flex-direction: column;
-  
+
 }
-.class1 input{
-margin-left: 46%;
-margin-top: 8%;
-  
+
+.class1 input {
+  margin-left: 46%;
+  margin-top: 8%;
+
 }
-.class1 h3{
+
+.class1 h3 {
   font-size: 30px;
   margin-top: 8%;
   text-decoration: underline 5px solid;
-  text-decoration-color: rgba(3, 84, 16, 1); 
+  text-decoration-color: rgba(3, 84, 16, 1);
   font-weight: normal;
+}
+
+.class1 span {
+  margin-top: 8%;
+  margin-left: 2%;
+
+
+}
+
+.class1 .para {
+  text-align: center;
+
+}
+
+.class1 .para2 {
+  margin-left: 18%;
+  text-align: center;
+}
+
+.noslieux-text img {
+  width: 650px;
+  margin-left: 2%;
+  margin-top: 3%;
+  margin-right: 2%;
+}
+
+/* TABLETTE */
+@media screen and (max-width: 1024px) {
+  .noslieux {
+    width: 100%;
+    height: 2732px;
   }
-  .class1 span{
-    margin-top: 8%;
+
+  .noslieux-text {
+    width: 725px;
+    margin-left: 5%;
+    flex-direction: column;
+  }
+
+  .noslieux-text img {
+    width: 325px;
     margin-left: 2%;
-   
-      
-    }
-    .class1 .para{
-      text-align: center;
-      
-      }
-      .class1 .para2{
-      margin-left: 18%;
-       text-align: center; 
-        }
-
- .noslieux-text img {
-   width: 650px;
-   margin-left: 2%;
-   margin-top: 3%;
-   margin-right: 2%;
- }
- 
-
-
-
-
-
+    margin-top: 3%;
+    margin-right: 2%;
+  }
+}
