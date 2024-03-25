@@ -27,7 +27,7 @@ export default function Noslieux() {
                         </li>
                         <li className="contact-forme-input">
                             <label htmlFor="">Prénom</label>
-                            <input  className="contact-forme-input" type="text" />
+                            <input className="contact-forme-input" type="text" />
                         </li>
                         <li className="contact-forme-input">
                             <label htmlFor="">Email</label>
@@ -35,19 +35,35 @@ export default function Noslieux() {
                         </li>
                         <li className="contact-forme-input">
                             <label htmlFor="">Télephone</label>
-                            <input className="contact-forme-input" type="tel"/>
+                            <input className="contact-forme-input" type="tel" />
                         </li>
-                        <li className="contact-forme-input">
+                        <select className="contact-forme-input" name="TypeEvenement" id="">
+                            <option value="" disabled selected>Type d’événement</option>
+                            <option value="">Mariage</option>
+                            <option value="">Anniversaire</option>
+                            <option value="">Dote</option>
+                            <option value="">cocktail</option>
+                            <option value="">anniversaire</option>
+                            <option value="">Conférence et Séminaire</option>
+                            <option value="">Séance photo et Tournage</option>
+                            <option value="">Réunion</option>
+                        </select>
+                        {/* <li className="contact-forme-input">
                             <label htmlFor="">Type d’événement*</label>
-                            <input className="contact-forme-input" type="text"/>
-                        </li>
-                        <li className="contact-forme-input">
+                            <input className="contact-forme-input" type="text" />
+                        </li> */}
+                        {/* <li className="contact-forme-input">
                             <label htmlFor="">Type de lieux*</label>
-                            <input className="contact-forme-input" type="text"/>
-                        </li>
+                            <input className="contact-forme-input" type="text" />
+                        </li> */}
+                        <select className="contact-forme-input" name="TypeDeLieu" id="">
+                            <option value="" disabled selected>Type de lieu</option>
+                            <option value="">salle de fête</option>
+                            <option value="">Espace verte</option>
+                        </select>
                         <li className="contact-forme-input">
                             <label htmlFor="">Réservation*</label>
-                            <input className="contact-forme-input" type="text"/>
+                            <input className="contact-forme-input" type="text" />
                         </li>
                         <li>
                             <input type="checkbox" id="scales" name="scales" checked />
@@ -55,7 +71,7 @@ export default function Noslieux() {
                         </li>
                         <li className="contact-forme-input">
                             <label htmlFor=""></label>
-                            <input  type="submit" />
+                            <input type="submit" />
                         </li>
                     </div>
                 </form>
