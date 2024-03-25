@@ -6,15 +6,22 @@
 
 .header {
     background-color: var(--colorLigth);
-    position: sticky;
+    position: fixed;
     top: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 18%;
-    margin-top: 5px;
+    gap: 0%;
     font-size: 20px;
-    max-width: 1470px;
+    width: 1840px;
+    height: 80px;
+   
+}
+
+.header img {
+    width: 28%;
+    height: 70%;
+ 
 }
 
 .btn-header {
@@ -24,21 +31,45 @@
     border-radius: 70px;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 2px;
+    margin-top: 5px;
     margin-bottom: 2.5px;
+
 }
 
 
-img {
+/* img {
     display: flex;
     width: 12%;
     height: 12%;
     margin-bottom: 8px;
-}
+} */
 
 .underline {
     text-decoration: none;
     color: black;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+.header :hover{
+    color: red;
+}
+/* TABLETTE */
+@media screen and (max-width: 1024px){
+   .header{
+    width: 824px;
+    height: 60px; 
+   } 
+   .underline {
+    font-size: 18px;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+.btn-header {
+    padding: 6px 25px;
+    font-size: 18px;
+    
+}
+
 }

@@ -8,3 +8,11 @@
     display: flex;
 
 }
+/* TABLETTE */
+@media screen and (max-width: 1024px){
+    .container3-img{
+        width:823px;
+        height: 80px; 
+    }
+    
+}

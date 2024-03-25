@@ -44,4 +44,18 @@ font-size: 24px;
 .conseiller-svg img {
     width: 60px; 
 }
+/* TABLETTE */
+@media screen and (max-width: 1024px){
+    .conseiller {
+        background-color: rgb(248, 242, 251);
+        border: 2px solid;
+        border-color: rgb(232, 232, 237);
+        width: 600px;
+        height: 450px;
+        margin-top: 5%;
+        margin-left: 12%;
+        
+   
+    }
+}
  

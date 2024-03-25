@@ -65,3 +65,45 @@ margin-left: 5%;
     margin-top: 10%;
   
 }
+/* TABLETTE */
+@media screen and (max-width: 1024px){
+    .footer{
+        background-image: url("/images/Rectangle 24.png");
+            background-size: cover;
+            background-position: center;
+            width:822px;
+            height: 380px;
+            margin-top: 10%;
+            display: flex;
+            gap: 15%;
+        
+           }
+           .logo{
+            width: 150px;
+            height: 150px;
+           }
+           .footer-svg img{
+            width: 50px;
+            height: 30px;
+        } 
+        .footer-svg li{
+            font-size: 18px;
+         }
+         .footer-svg .Footer-svg-conctact{
+            font-size: 28px;
+            }
+            .footer-text2 .footer-page{
+                font-size: 25px;
+            }
+            .footer-text2 p{
+                font-size: 18px; 
+            }
+            .footer {
+               margin-right: -10%;
+              
+            }
+            .footer-svg {
+               margin-right: 18%;
+            }
+}
+ 

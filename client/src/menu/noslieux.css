@@ -1,3 +1,8 @@
+.noslieux{
+  background-image: url("images/save the date(1).png");
+  height: 2732px;
+  width: 1830px;
+}
 .noslieux-text{
 background-color: rgb(248, 242, 251);
 background-repeat: no-repeat;
@@ -23,21 +28,22 @@ h3{
 .noslieux h2{
   text-align: center;
   font-size: 40px;
-  margin-top: 5%;
+  /* margin-top: 5%; */
   margin-bottom: 3%;
-  color:  rgba(3, 84, 16, 1);
+  color:  rgb(2, 45, 9);
   font-weight: bold;
-  animation: shine 1s infinite; /* Utilisation de l'animation */
+  animation: shine 1s infinite; 
+  
 }
 @keyframes shine {
   0% {
-      color: rgba(3, 84, 16, 1); /* Couleur de départ */
+      color: rgb(17, 192, 46); 
   }
   50% {
-      color: rgb(32, 15, 223); /* Couleur à mi-chemin */
+      color: rgb(32, 15, 223); 
   }
   100% {
-      color: #bf0e0e; /* Couleur finale */
+      color: #fdfafa; 
   }
 }
 
@@ -73,14 +79,7 @@ margin-top: 8%;
       margin-left: 18%;
        text-align: center; 
         }
- /* @keyframes slideText {
-  0% {
-      transform: translateX(0); 
-  }
-  100% {
-      transform: translateX(200px); 
-  }
-} */
+
  .noslieux-text img {
    width: 650px;
    margin-left: 2%;

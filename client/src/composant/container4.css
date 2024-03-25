@@ -9,5 +9,12 @@
     margin-right: 11%;
     margin-top: 3%;
 }
-
+/* TABLETTE */
+@media screen and (max-width: 1024px){
+    .container4-text {
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
 

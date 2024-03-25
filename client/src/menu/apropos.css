@@ -127,3 +127,11 @@
  .color3 {
    color: rgba(37, 3, 249, 0.97);
  }
+ /* TABLETTE */
+@media screen and (max-width: 1024px){
+  .apropos {
+    height: 40vh;
+    width: 100%;
+  }
+  
+}
