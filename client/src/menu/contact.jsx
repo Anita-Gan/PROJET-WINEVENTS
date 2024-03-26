@@ -14,68 +14,56 @@ export default function Noslieux() {
                 <p className="text3">Nous vous répondons par téléphone :</p>
                 <p className="text4">Tél: +243970821352</p>
                 <p className="text4">Tél: +243993260583</p>
-            </div>
-            <div className="contact-forme">
-                <form action="#">
-                    <p>Vous pouvez aussi remplir ce formulaire :</p>
-                    <span className="text-forme">Les champs marqués du signe <span className="color-red">* </span>sont obligatoires.</span>
-                    <div>
 
-                        <li className="contact-forme-input" >
-                            <label htmlFor="">Nom</label>
-                            <input type="text" />
-                        </li>
-                        <li className="contact-forme-input">
-                            <label htmlFor="">Prénom</label>
-                            <input className="contact-forme-input" type="text" />
-                        </li>
-                        <li className="contact-forme-input">
-                            <label htmlFor="">Email</label>
-                            <input className="contact-forme-input" type="email" />
-                        </li>
-                        <li className="contact-forme-input">
-                            <label htmlFor="">Télephone</label>
-                            <input className="contact-forme-input" type="tel" />
-                        </li>
-                        <select className="contact-forme-input" name="TypeEvenement" id="">
-                            <option value="" disabled selected>Type d’événement</option>
-                            <option value="">Mariage</option>
-                            <option value="">Anniversaire</option>
-                            <option value="">Dote</option>
-                            <option value="">cocktail</option>
-                            <option value="">anniversaire</option>
-                            <option value="">Conférence et Séminaire</option>
-                            <option value="">Séance photo et Tournage</option>
-                            <option value="">Réunion</option>
-                        </select>
-                        {/* <li className="contact-forme-input">
-                            <label htmlFor="">Type d’événement*</label>
-                            <input className="contact-forme-input" type="text" />
-                        </li> */}
-                        {/* <li className="contact-forme-input">
-                            <label htmlFor="">Type de lieux*</label>
-                            <input className="contact-forme-input" type="text" />
-                        </li> */}
-                        <select className="contact-forme-input" name="TypeDeLieu" id="">
-                            <option value="" disabled selected>Type de lieu</option>
-                            <option value="">salle de fête</option>
-                            <option value="">Espace verte</option>
-                        </select>
-                        <li className="contact-forme-input">
-                            <label htmlFor="">Réservation*</label>
-                            <input className="contact-forme-input" type="text" />
-                        </li>
-                        <li>
-                            <input type="checkbox" id="scales" name="scales" checked />
-                            <label for="scales">Je consens à ce que ce site  WinEvent’s stocke mes informations afin qu’il puisse répondre à ma requête.<span>*</span> </label>
-                        </li>
-                        <li className="contact-forme-input">
-                            <label htmlFor=""></label>
-                            <input type="submit" />
-                        </li>
-                    </div>
-                </form>
-            </div >
+            </div>
+           
+            <div id="container">
+                <div className="boxContact">
+                    <form className="formContact" action="#">
+                        <h2>Vous pouvez aussi remplir ce formulaire :</h2>
+                        <div>
+                            <ul>
+                                <li className="prenom">
+                                    <label for="prenom">Prénom</label>
+                                    <input type="text" id="prenom" name="prenom" />
+                                </li>
+                                <li className="nom">
+                                    <label for="nom">Nom</label>
+                                    <input type="text" id="nom" name="nom" />
+                                </li>
+                                <li className="tel">
+                                    <label for="tel">Télephone</label>
+                                    <input type="tel" id="tel" name="tel" />
+                                </li>
+                                <li className="email">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" />
+                                </li>
+                                <select  name="TypeEvenement" id="">
+                                    <option value="" disabled selected>Type d’événement</option>
+                                    <option value="">Mariage</option>
+                                    <option value="">Anniversaire</option>
+                                    <option value="">Dote</option>
+                                    <option value="">cocktail</option>
+                                    <option value="">anniversaire</option>
+                                    <option value="">Conférence et Séminaire</option>
+                                    <option value="">Séance photo et Tournage</option>
+                                    <option value="">Réunion</option>
+                                </select>
+                                <select  name="TypeDeLieu" id="">
+                                    <option value="" disabled selected>Type de lieu</option>
+                                    <option value="">salle de fête</option>
+                                    <option value="">Espace verte</option>
+                                </select>
+                            </ul>
+                            <div className="btns">
+                                <input class="btn__submit" type="submit" value="Réservation" />
+                                <input class="btn__reset" type="button" value="Annuler" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
             <Footer></Footer>
         </div>
     )

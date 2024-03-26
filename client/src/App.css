@@ -73,7 +73,7 @@
   /* margin-top: 8%; */
 }
 
-.btn-1 {
+ .btn-1 {
   background-color: var(--colorLigth);
   color: black;
   padding: 12px 35px;
@@ -147,30 +147,42 @@ top: 30%;
     margin-left: 3%;
   }
 }
-
 /* || RESPONSIVE MOBILE */
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 786px){
   .container {
-    background-image: url("/home/user-24-c1/PROJET WINEVENTS/client/images/mr.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 100vh;
     width: 100%;
   }
-
   .container .container-tittle {
-
-    width: 90%;
-    height: 40%;
-
+    width: 85%;
+    height: 30%;
+  }
+  .container .container-tittle h1 {
+    font-size: 35px;
+  }
+  .container .container-tittle p {
+    font-size: 18px;
+    animation: slideText 3s linear infinite;
   }
 
-  .container .container-tittle h1 {
-    color: var(--colorLigth);
-    font-size: 50px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
+  @keyframes slideText {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(40px);
+    }
+  }
+  .btn-1,
+  .btn-2
+   {
+    padding: 5px 5px;
+    margin-top: 35%;
+    margin-left: 3%;
+  }
+  .btn-3{
+    padding: 5px 5px;
+    margin-left: 3%;
   }
 }
