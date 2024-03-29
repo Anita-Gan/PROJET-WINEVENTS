@@ -1,7 +1,7 @@
 {
   "name": "PROJET_WINEVENTS",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "license": "MIT",
   "private": true,
   "workspaces":["client","server"]
