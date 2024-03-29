@@ -5,7 +5,7 @@
 }
 
 .header {
-    background-color: var(--colorLigth);
+    background-color: rgba(255, 192, 203, 1);;
     position: fixed;
     top: 0;
     display: flex;
@@ -13,15 +13,16 @@
     justify-content: space-between;
     gap: 0%;
     font-size: 20px;
-    width: 1840px;
+    width: 1640px;
     height: 80px;
-   
+    /* margin-top: 3%; */
+  margin-left: 4%;
 }
 
 .header img {
     width: 28%;
     height: 70%;
- 
+ border-radius: 250% 250% 250% 250%;
 }
 
 .btn-header {
@@ -58,7 +59,7 @@
 /* TABLETTE */
 @media screen and (max-width: 1024px){
    .header{
-    width: 100%;
+    max-width: 1250px;
     height: 60px; 
    } 
    .underline {
@@ -71,5 +72,9 @@
     font-size: 18px;
     
 }
+
+}
+/* || RESPONSIVE MOBILE */
+@media screen and (max-width: 786px){
 
 }

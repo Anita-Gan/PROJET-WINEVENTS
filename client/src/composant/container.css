@@ -1,16 +1,20 @@
  .container2 {
      /* background-image: url("/images/Untitled.png"); */
-     display: flex;
+     /* background-color: rgba(255, 192, 203, 1); */
+     /* display: flex;
      flex-direction: row;
-     justify-content: space-between;
+     justify-content: space-between; */
      font-size: 32px;
      max-width: 2000px;
-     max-height: 1950px;
-     margin-top: 5%;
+     max-height: 1150px;
+     margin-top: 3%;
  }
 
  .container2-p {
-     margin-left: 8%;
+     /* margin-left: 8%; */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
  }
 
  .container2-p h1 {
@@ -19,9 +23,9 @@
  }
 
  .container2-img {
-     width: 650px;
-     height: 750px;
-     border-radius: 70%;
+     max-width: 650px;
+     max-height: 750px;
+     /* border-radius: 70%; */
      /* display: flex;
 flex-direction: row;
 float: inline-end;
@@ -39,7 +43,7 @@ margin-left: 5%; */
      color: rgba(202, 17, 17, 1);
      font-size: 20px;
      font-weight: bold;
-     margin-left: 30%;
+     margin-left: 42%;
  }
 
  /* TABLETTE */

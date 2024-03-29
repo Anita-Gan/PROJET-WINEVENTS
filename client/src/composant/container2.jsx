@@ -21,7 +21,7 @@ export default function Container2() {
 
             </div>
 
-            <img className="container2-img" src="/images/fete.png" alt="" />
+            {/* <img className="container2-img" src="/images/fete.png" alt="" /> */}
         </div>
 
     )

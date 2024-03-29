@@ -1,18 +1,23 @@
 .container3-img {
-    background-image: url("/images/Rectangle 24.png");
+    background-color: rgba(255, 192, 203, 1);
     background-size: cover;
     background-position: center;
-    width:1833px;
+    width: 1833px;
     height: 80px;
     margin-top: 3%;
     display: flex;
-
+   
 }
+.container3-img p{
+font-size: 28px;
+font-weight: 800;
+}
+
 /* TABLETTE */
-@media screen and (max-width: 1024px){
-    .container3-img{
-        width:823px;
-        height: 80px; 
+@media screen and (max-width: 1024px) {
+    .container3-img {
+        width: 823px;
+        height: 80px;
     }
-    
+
 }
