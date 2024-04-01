@@ -1,14 +1,14 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
+const nodemailer = require('nodemailer');
 const port = process.env.PORT || 3000;
 
 
+// Middleware pour parser les données du formulaire
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
 
 // Route pour gérer la soumission du formulaire
 app.post('/envoyer-message', (req, res) => {
