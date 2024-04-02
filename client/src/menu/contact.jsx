@@ -11,8 +11,7 @@ const [tel, setTel] = useState('');
 const [TelError, setTelError] = useState('');
 const [email, setEmail] = useState('');
 const [EmailError,setEmailError] = useState('');
-const [reservation,setReservation] = useState('');
-const [annuler,setAnnulation] = useState('');
+
 
 // validation prenom
 const prenomValid = (value) => {
@@ -54,30 +53,14 @@ const prenomValid = (value) => {
         } else {
             setTelError("");
         }
-    };
+    }; 
 
-// validation du btn reservation 
+ 
+const handleReservation = (event) => {
+    event.preventDefault();
 
-const reservationValid = (value) => {
-    const nomValid = (value) => {
-        console.log(value)
-        if (value.trim().length < 3 || value.trim().length > 20) {
-            setNomError("Le nom doit contenir entre 3 et 20 caractères");
-        } else {
-            setNomError("");
-        }
-    };
-};  
 
-// validation du btn reservation
-
-const annulationValid = (contactElement, index) => {
-        contactElement.closest(".btn__reset").remove();
-        formContact.splice(index, 1);
-        const tabString = JSON.stringify(formContact);
-        window.localStorage.setItem('formContact', tabString);
-};  
-
+}
 
     return (
         <div className="contact">
@@ -156,14 +139,12 @@ const annulationValid = (contactElement, index) => {
                             </ul>
                             <div className="btns">
                                 <input className="btn__submit" type="submit" value="Réservation"  onClick={(e) => {
-                                       e.preventDefault();
-                                       setReservation(e.target.contactElement, index);
-                                        reservationValid(e.target.value);
+                                       handleReservation();
+                                       
                                     }}/>
                                 <input className="btn__reset" type="button"  value="annuler" onClick={(e) => {
-                                       e.preventDefault();
-                                       setAnnulation(e.target.contactElement, index);
-                                        annulationValid(e.target.value);
+                                      handleReservation();
+                                      
                                     }}/>
                             </div>
                         </div>

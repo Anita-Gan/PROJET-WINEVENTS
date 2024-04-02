@@ -4,7 +4,7 @@ const { PrismaClient } = require("@prisma/client");
 const prisma = new PrismaClient();
 // const jwt = require('jsonwebtoken')
 const bcrypt = require('bcryptjs')
-const loginAuth= require('server/Controllers/LoginControllers.js')
+const loginAuth= require('../Controllers/LoginControllers.js')
 
 
 router.post('/login', loginAuth.loginAuthController )
