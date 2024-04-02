@@ -27,6 +27,7 @@ import '/src/menu/contact.css'
 import './menu/service.css'
 import Accueil from './menu/accueil'
 import axios from "axios"
+import { useState } from 'react'
 
 
 
@@ -34,7 +35,7 @@ function App() {
     
   const [userSignup, setUserSignup] = useState(null);
 
-  axios.get( "http://localhost:3000/user/signup")
+  axios.post( "http://localhost:3000/user/signup")
  
     .then((res) => {
       setUserSignup(res.data)
@@ -42,28 +43,36 @@ function App() {
 
   if (userSignup === null) {
     return (
-      <div className='signup'>
-        <img src="" alt="" />
-        <h1 > </h1>
+      <div className='signup'> 
+       
+      <div className='signup-form'>
+      {/* <img src="/images/WinEvents.png" alt="" /> */}
+     
         <form className='form-login'action="">
+        <h1 className='signup-text'>Bienvenu sur notre site</h1>
           <h2>Inscrivez-vous.</h2>
          
             <li>
-              <label for="username">username</label>
-              <input  type="submit" />
+              <label for="name">Username</label>
+              <input placeholder='Username' className='signup-input'/>
             </li>
             <li>
-              <label for="password"> password</label>
-              <input type="submit" />
+              <label for="email">Email</label>
+              <input placeholder='Email' className='signup-input'/>
             </li>
             <li>
-              <label for ="connection">connection</label>
-              <input type="submit" />
+              <label for="password"> Password</label>
+              <input placeholder='Password' className='signup-input'/>
+            </li>
+            <li>
+              <label for ="connection">ou</label>
+              <input value="Connection"/>
             </li>
           
 
 
         </form>
+      </div>
       </div>
     )
   }
