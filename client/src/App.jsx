@@ -32,34 +32,33 @@ import axios from "axios"
 
 function App() {
     
-  const [userLogin, setUserLogin] = useState(null);
+  const [userSignup, setUserSignup] = useState(null);
 
   axios.get( "http://localhost:3000/user/signup")
  
     .then((res) => {
-      setUserLogin(res.data)
+      setUserSignup(res.data)
     })
 
-  if (userLogin === null) {
+  if (userSignup === null) {
     return (
-      <div >
-        <img src="twitter-logo-2429-removebg-preview.png" alt="" />
-        <h1 className='text-login'>Ça se passe<br></br> maintenant </h1>
+      <div className='signup'>
+        <img src="" alt="" />
+        <h1 > </h1>
         <form className='form-login'action="">
           <h2>Inscrivez-vous.</h2>
          
             <li>
               <label for="username">username</label>
-              <input className="form-btn" type="submit" />
+              <input  type="submit" />
             </li>
             <li>
               <label for="password"> password</label>
-              <input className="form-btn" type="submit" />
+              <input type="submit" />
             </li>
             <li>
-              <h3 className='form-h3'>Ou</h3>
               <label for ="connection">connection</label>
-              <input className="form-btn" type="submit" />
+              <input type="submit" />
             </li>
           
 
