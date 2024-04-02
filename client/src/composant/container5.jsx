@@ -44,7 +44,7 @@ export default function Container5() {
                     <p className="text">contactez les meilleur décorateur , <br></br>pour vos évenement</p>
                 </div>
                 <div>
-                    <img src="/images/man.jpg" />
+                    <img src="/images/city-park.jpg" />
                     <p className="text">contactez les meilleur service traiteur , <br></br>pour vos évenemen</p>
                 </div>
                 <div>
@@ -52,11 +52,47 @@ export default function Container5() {
                     <p className="legend">Legend 3</p>
                 </div>
                 <div>
-                    <img src="/images/buffet2.jpg" />
+                    <img src="/images/deco1.jpg" />
                     <p className="legend">Legend 3</p>
                 </div>
                 <div>
-                    <img src="/images/buffet2.jpg" />
+                    <img src="/images/espace verte (copie).jpg" />
+                    <p className="legend">Legend 3</p>
+                </div>
+                <div>
+                    <img src="/images/salle4.jpg" />
+                    <p className="legend">Legend 3</p>
+                </div>
+                <div>
+                    <img src="/images/salle6.jpg" />
+                    <p className="legend">Legend 3</p>
+                </div>
+                <div>
+                    <img src="/images/shoot2.jpg" />
+                    <p className="legend">Legend 3</p>
+                </div>
+                <div>
+                    <img src="/images/shoot4.jpg" />
+                    <p className="legend">Legend 3</p>
+                </div>
+                <div>
+                    <img src="/images/pâte.jpg" />
+                    <p className="legend">Legend 3</p>
+                </div>
+                <div>
+                    <img src="/images/deco2 (copie).jpg" />
+                    <p className="legend">Legend 3</p>
+                </div>
+                <div>
+                    <img src="/images/buffet3.jpg" />
+                    <p className="legend">Legend 3</p>
+                </div>
+                <div>
+                    <img src="/images/espace verte.jpg" />
+                    <p className="legend">Legend 3</p>
+                </div>
+                <div>
+                    <img src="/images/deco3.jpg" />
                     <p className="legend">Legend 3</p>
                 </div>
             </Carousel>

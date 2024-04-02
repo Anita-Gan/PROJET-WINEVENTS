@@ -15,7 +15,7 @@
 }
 
 .container {
-  background-image: url("/home/user-24-c1/PROJET WINEVENTS/client/images/mr.jpg");
+  background-image: url("client/images/mr.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -12,9 +12,9 @@ export default function Accueil() {
         <div className='container'>
             <Container />
             <Container3/>
-            <Container5/>
-            <Container3/>
             <Container2 />
+            <Container3/>
+            <Container5/>
             <Container3/>
             <Container4 />
             <Image/>
