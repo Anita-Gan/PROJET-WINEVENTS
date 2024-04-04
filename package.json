@@ -1,9 +1,4 @@
 {
-  "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "cd client && npm start",
-    "client": "cd server && yarn run dev"
-  },
   "name": "PROJET_WINEVENTS",
   "version": "1.0.0",
   "main": "app.js",
@@ -15,5 +10,12 @@
   ],
   "dependencies": {
     "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd client && npm start",
+    "client": "cd server && yarn run dev"
   }
+  
+  
 }

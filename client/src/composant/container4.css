@@ -9,8 +9,9 @@
     margin-right: 11%;
     margin-top: 3%;
 }
+
 /* TABLETTE */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .container4-text {
         font-size: 15px;
         margin-left: 5%;
@@ -18,3 +19,16 @@
     }
 }
 
+/* || RESPONSIVE MOBILE */
+@media screen and (max-width: 786px) {
+    .container4-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}

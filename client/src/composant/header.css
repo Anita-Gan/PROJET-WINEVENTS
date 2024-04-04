@@ -4,7 +4,7 @@
     --colorDark: #0000;
 }
 
-.header {
+.header{
     background-color: #FFFFFF;
     position: fixed;
     top: 0;
@@ -18,7 +18,13 @@
     /* margin-top: 3%; */
   margin-left: 4%;
 }
-
+.header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 26%;
+    gap: 10%;
+}
 .header img {
     width: 28%;
     height: 70%;
@@ -38,12 +44,7 @@
 }
 
 
-/* img {
-    display: flex;
-    width: 12%;
-    height: 12%;
-    margin-bottom: 8px;
-} */
+
 
 .underline {
     text-decoration: none;
@@ -56,25 +57,47 @@
 .header :hover{
     color: red;
 }
+
+
+.menu-icon {
+    display: none; /* Masquer l'icône de menu par défaut */
+}
+
 /* TABLETTE */
 @media screen and (max-width: 1024px){
    .header{
-    max-width: 700px;
+    max-width: 730px;
     height: 60px; 
-   } 
+   }
+   .header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 25%;
+    gap: 5%;
+} 
    .underline {
     font-size: 18px;
     margin-top: 2%;
     margin-right: 2%;
 }
 .btn-header {
-    padding: 6px 25px;
+    padding: 6px 15px;
     font-size: 18px;
     
 }
+ }
 
-}
 /* || RESPONSIVE MOBILE */
 @media screen and (max-width: 786px){
-
+    .menu-icon {
+        display: block;
+    }
+    .menu {
+        display: none; /* Masquer le menu par défaut sur mobile */
+        transition: transform 0.3s ease-in-out;
+    }
+    .menu.open {
+        display: block; /* Afficher le menu lorsqu'il est ouvert */
+    }
 }

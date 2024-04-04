@@ -158,3 +158,46 @@
   }
  
 }
+
+/* || RESPONSIVE MOBILE */
+@media screen and (max-width: 786px){
+  .apropos-text2 {
+    font-size: 20px;
+    margin-top: 46%;
+  }
+  .apropos-text h2 {
+    font-size: 28px;
+    padding-top: 28%;
+  }
+  .apropos-text {
+    top: 28%;
+    width: 45%;
+    height: 45%;
+  }
+  .box-3,
+ .box-2 ,
+ .box-1 {
+    width: 250px;
+    height: 150px;
+    
+  }
+  .box-3 h3,
+ .box-2 h3,
+ .box-1 h3{
+    font-size: 12px;
+    margin-left: 5%;
+  }
+  .app-text .app-text1 {
+    font-size: 20px;
+  }
+ 
+  .app-btn {
+    background-color: rgba(238, 107, 12, 0.64);
+    border-color: rgba(238, 107, 12, 0.64);
+    padding: 8px 10px;
+    border-radius: 70px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 3%;
+  }
+}

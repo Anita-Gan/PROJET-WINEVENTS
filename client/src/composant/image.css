@@ -35,3 +35,17 @@
         
     }
 }
+/* || RESPONSIVE MOBILE */
+@media screen and (max-width: 786px) {
+    .image img{
+        width: 250px;
+        height: 150px;
+    }
+    .image {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;  
+    }
+
+}

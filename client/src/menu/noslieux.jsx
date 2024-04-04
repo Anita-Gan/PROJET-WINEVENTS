@@ -3,7 +3,7 @@ import Footer from "../composant/footer";
 export default function Noslieux() {
     return (
         <div className="noslieux">
-            <h2>Nos adresse et tarifs </h2>
+            {/* <h2>Nos adresse et tarifs </h2> */}
             <div className="noslieux-text">
                 <img src="/images/salle1.jpg" alt="" />
                 <div className="class1">

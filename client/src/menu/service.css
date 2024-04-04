@@ -104,3 +104,34 @@
    
   }
 }
+/* || RESPONSIVE MOBILE */
+@media screen and (max-width: 786px){
+  .service-text h2 {
+    font-size: 28px;
+  }
+  .service-text{
+    top: 29%;
+  }
+  .service-text2 {
+    margin-top: 49%;
+    font-size: 12px;
+  }
+  .service-salle img,
+  .service-traiteur img{
+    width: 92px;
+    height: 25px;
+    margin-right: 2%;
+  }
+  .service-span {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 9%;
+    font-size: 20px;
+    font-weight: bold;
+   
+  }
+  .service-traiteur {
+    display: flex;
+  }
+}

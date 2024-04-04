@@ -54,9 +54,33 @@ font-size: 24px;
         width: 600px;
         height: 450px;
         margin-top: 5%;
-        margin-left: 12%;
-        
+        margin-left: 15%;  
    
     }
 }
- 
+/* || RESPONSIVE MOBILE */
+@media screen and (max-width: 786px) {
+    .conseiller {
+        width: 300px;
+        height: 310px;
+        margin-top: 8%; 
+       margin-left: 9%; 
+    } 
+    p{
+        margin-top: 3%;
+        font-size: 12px;
+    }
+    .conseiller-svg img {
+        width: 40px; 
+        
+    }
+    .conseiller-img img {
+        width: 70px;
+        border-radius: 120px;
+        display: flex;
+    
+    }
+    .conseiller h2 {
+        font-size: 23px;
+    }
+} 

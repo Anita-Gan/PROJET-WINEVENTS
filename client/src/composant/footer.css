@@ -77,7 +77,6 @@
 /* TABLETTE */
 @media screen and (max-width: 1024px) {
     .footer {
-        background-image: url("/images/Rectangle 24.png");
         background-size: cover;
         background-position: center;
         width: 822px;
@@ -85,7 +84,6 @@
         margin-top: 10%;
         display: flex;
         gap: 15%;
-
     }
 
     .logo {
@@ -108,18 +106,48 @@
 
     .footer-text2 .footer-page {
         font-size: 25px;
+        
     }
 
     .footer-text2 p {
         font-size: 18px;
     }
 
-    .footer {
-        margin-right: -10%;
-
-    }
 
     .footer-svg {
-        margin-right: 18%;
+        margin-right: 19%;
+    }
+  
+}
+  /* || RESPONSIVE MOBILE */
+  @media screen and (max-width: 786px){
+    .footer {
+        width: 359px;
+        height: 190px;  
+    }
+    .footer-svg img {
+        width: 28px;
+        height: 28px;
+    }
+    .footer-text2 p {
+        font-size: 8px;
+    }
+
+    .footer-svg li {
+        font-size: 8px;
+    }
+
+    .footer-svg .Footer-svg-conctact {
+        font-size: 15px;
+    }
+
+    .footer-text2 .footer-page {
+        font-size: 15px;
+        
+    }
+
+    .logo {
+        width: 45px;
+        height: 45px;
     }
 }

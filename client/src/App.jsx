@@ -26,57 +26,13 @@ import 'client/src/composant/container5.css'
 import '/src/menu/contact.css'
 import './menu/service.css'
 import Accueil from './menu/accueil'
-import axios from "axios"
-import { useState } from 'react'
+import Win from './menu/WinEvent\'S'
 
 
 
 function App() {
-    
-  const [userSignup, setUserSignup] = useState(null);
 
-  axios.post( "http://localhost:3000/user/signup")
  
-    .then((res) => {
-      setUserSignup(res.data)
-    })
-
-  if (userSignup === null) {
-    return (
-      <div className='signup'> 
-       
-      <div className='signup-form'>
-      {/* <img src="/images/WinEvents.png" alt="" /> */}
-     
-        <form className='form-login'action="">
-        <h1 className='signup-text'>Bienvenu sur notre site</h1>
-          <h2>Inscrivez-vous.</h2>
-         
-            <li>
-              <label for="name">Username</label>
-              <input placeholder='Username' className='signup-input'/>
-            </li>
-            <li>
-              <label for="email">Email</label>
-              <input placeholder='Email' className='signup-input'/>
-            </li>
-            <li>
-              <label for="password"> Password</label>
-              <input placeholder='Password' className='signup-input'/>
-            </li>
-            <li>
-              <label for ="connection">ou</label>
-              <input value="Connection"/>
-            </li>
-          
-
-
-        </form>
-      </div>
-      </div>
-    )
-  }
-
   return (
     <>
       <BrowserRouter>
@@ -85,16 +41,17 @@ function App() {
           <Header />
         </div>
         <Routes>
+        <Route path="/" element={<Win />} />
           <Route path="/accueil" element={<Accueil />} />
           <Route path="/apropos" element={<Apropos />} />
           <Route path='/services' element={<Services />} />
           <Route path='/noslieux' element={<Noslieux />} />
-          <Route path='/contact' element={<Contact/>} />
+          <Route path='/contact' element={<Contact />} />
 
         </Routes>
-       
+
       </BrowserRouter>
-      
+
 
     </>
   )

@@ -19,3 +19,24 @@
     margin-top: 5%;
     margin-right: 11%;
 }
+ /* TABLETTE */
+ @media screen and (max-width: 1024px) {
+    .container5 img{
+        max-height: 350px;
+        max-width: 730px;
+      cursor: pointer;
+    } 
+}
+/* || RESPONSIVE MOBILE */
+@media screen and (max-width: 786px) {
+    .container5 img{
+        max-height: 350px;
+        max-width: 330px;
+      cursor: pointer;
+    }
+    .carousel-title{
+        text-align: center;
+        font-size: 22px;
+        cursor: pointer;
+    }
+}
